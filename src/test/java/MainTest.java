@@ -29,7 +29,7 @@ public class MainTest {
         bread = new Bread("Test", 10, "Test Bread");
         chocolate = new Chocolate("Test", 10, "Test Chocolate");
         coke = new Coke("Test", 10, "Test Coke");
-        troll = new Troll(1000, "Shrek", 100);
+        troll = new Troll("Shrek", 1000, 100);
     }
 
     @DisplayName("Subclasslar Superclass değişkenlerinin değerlerine ulaşabiliyor mu?")
@@ -82,6 +82,6 @@ public class MainTest {
     @DisplayName("attack methodu doğru çalışıyor mu ?")
     @Test
     public void testAttackMethod() {
-       assertEquals(troll.attack(), 155.0);
+       assertEquals(troll.attack(), 155);
     }
 }

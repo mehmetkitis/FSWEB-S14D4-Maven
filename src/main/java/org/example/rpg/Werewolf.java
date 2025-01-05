@@ -3,8 +3,8 @@ package org.example.rpg;
 import org.example.rpg.utils.Constant;
 
 public class Werewolf extends Monster implements Bleedable{
-    public Werewolf(double damage, String name, int hitPoints) {
-        super(damage, name, hitPoints);
+    public Werewolf(String name, int hitPoints, double damage) {
+        super(name, hitPoints, damage);
     }
 
     @Override

@@ -3,8 +3,8 @@ package org.example.rpg;
 import org.example.rpg.utils.Constant;
 
 public class Troll extends Monster implements Bleedable,Poisonable{
-    public Troll(double damage, String name, int hitPoints) {
-        super(damage, name, hitPoints);
+    public Troll(String name, int hitPoints, double damage) {
+        super(name, hitPoints, damage);
     }
 
     @Override

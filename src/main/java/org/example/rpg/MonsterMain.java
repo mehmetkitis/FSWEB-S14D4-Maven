@@ -1,9 +1,9 @@
 package org.example.rpg;
 
-public class RpgMain {
+public class MonsterMain {
     public static void main(String[] args) {
-        Monster shrek = new Troll(100,"Shrek",1000);
-        Monster wolf = new Werewolf(100,"wolf",500);
+        Monster shrek = new Troll("Shrek",1000,100);
+        Monster wolf = new Werewolf("wolf",500,100);
         printAttackResult(shrek);
         printAttackResult(wolf);
     }

@@ -5,10 +5,10 @@ public abstract class Monster {
     private int hitPoints;
     private double damage;
 
-    public Monster(double damage, String name, int hitPoints) {
-        this.damage = damage;
+    public Monster(String name, int hitPoints, double damage) {
         this.name = name;
         this.hitPoints = hitPoints;
+        this.damage = damage;
     }
 
     public abstract double attack();
